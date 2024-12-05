@@ -21,4 +21,5 @@ module "dev_vm" {
   domain                     = var.domain
   mongo_initdb_root_username = var.mongo_initdb_root_username
   mongo_initdb_root_password = var.mongo_initdb_root_password
+  
 }
